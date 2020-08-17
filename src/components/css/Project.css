@@ -1,0 +1,29 @@
+.cust-image {
+  margin: 25px;
+  width: 100%;
+  height: 400px;
+  max-height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s; /* Animation */
+  border-radius: 30px !important;
+}
+
+.cust-image:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.01);
+}
+
+.project-div {
+  padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .cust-image {
+    width: 90%;
+    transition: none;
+  }
+  .cust-image:hover {
+    transform: none;
+  }
+}

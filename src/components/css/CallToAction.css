@@ -1,0 +1,18 @@
+.CTADiv {
+    padding: 8% 10% 4% 10%;
+    margin-top: 4%;
+    background-color:rgb(227, 233, 231);
+    height:100%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Poppins;
+}
+
+@media screen and (max-width: 480px) {
+    .CTADiv {
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}

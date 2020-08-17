@@ -1,0 +1,31 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)),
+    url("../../assets/david-shammas.jpg");
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-attachment: fixed;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    font-size: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .nameClass {
+    color: #39a3e9;
+  }
+
+  @media screen and (max-width: 480px) {
+    .hero-image {
+      background-position: right;
+    }
+  }

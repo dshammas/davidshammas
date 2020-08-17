@@ -1,0 +1,21 @@
+.img-contact {
+  background-image: url("../../assets/contact.jpg");
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: center;
+
+  background-attachment: fixed;
+
+  /* background-attachment: fixed; */
+}
+
+.contact-div {
+  text-align: center;
+  padding: 50px 50px 20px 50px;
+  margin-bottom: 35px;
+  border-radius: 30px !important;
+  background-color: rgb(248, 251, 251);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

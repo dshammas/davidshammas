@@ -1,0 +1,23 @@
+.navbar {
+  border-bottom: 1px solid #215679;
+}
+
+.brand {
+  margin-left: 10%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navBar {
+  margin-right: 10%;
+  color: rgb(146, 27, 27);
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: Poppins;
+}
+
+.navBarItem:hover {
+  color:#fff !important;
+  background-color: #39a3e9;
+  border-radius: 10%;
+}

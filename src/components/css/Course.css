@@ -1,0 +1,15 @@
+.cust-course {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.3s; /* Animation */
+  border-radius: 30px !important;
+  background-color: #f4f7fa;
+  
+}
+
+.cust-course:hover {
+    background-color: #96ccff !important;
+    font-weight: bold;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.05);
+}

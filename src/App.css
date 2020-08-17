@@ -1,38 +1,77 @@
+:root {
+  --primary-color: #215679;
+  --secondary-color: #3498db;
+}
+ body{
+   margin: 0;
+   padding:0;
+ }
+
 .App {
+  font-family: Roboto;
+}
+
+p {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  letter-spacing: 2px;
+  /* font-family: Poppins; */
+}
+
+
+.ds-cust-btn {
+  position: relative;
+  width: 140px;
+  height: 50px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  /* border: 2px solid #e74c3c; */
+  border-radius: 0.6em;
+  color: #33302f;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  margin: 10px;
+  /* padding: 1.2em 2.8em; */
+  text-decoration: none;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.btn:hover, .btn:focus {
+  color: rgb(255, 255, 255);
+  outline: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.primary-btn {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.primary-btn:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
+.secondary-btn {
+  -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondary:hover {
+  border: none;
+  box-shadow: 0 0 100px 40px #e74c3c inset;
 }
