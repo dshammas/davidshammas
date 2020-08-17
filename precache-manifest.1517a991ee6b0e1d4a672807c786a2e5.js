@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d54e23046949eb4309ee2dbb787839b",
+    "revision": "bc118949141e0898f14c8bc29847a429",
     "url": "/davidshammas/index.html"
   },
   {
-    "revision": "bd770cc3f17659570400",
+    "revision": "c7c0fbf3784b04e70edd",
     "url": "/davidshammas/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "98fd278e856a3e654a4d",
+    "revision": "a90716818ee8588b2ef5",
     "url": "/davidshammas/static/css/main.121e32fa.chunk.css"
   },
   {
-    "revision": "bd770cc3f17659570400",
-    "url": "/davidshammas/static/js/2.149beaeb.chunk.js"
+    "revision": "c7c0fbf3784b04e70edd",
+    "url": "/davidshammas/static/js/2.fa6460d7.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/davidshammas/static/js/2.149beaeb.chunk.js.LICENSE.txt"
+    "url": "/davidshammas/static/js/2.fa6460d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "98fd278e856a3e654a4d",
-    "url": "/davidshammas/static/js/main.aa9160c2.chunk.js"
+    "revision": "a90716818ee8588b2ef5",
+    "url": "/davidshammas/static/js/main.3c9862df.chunk.js"
   },
   {
     "revision": "8d3a240d0920ec7b1b0c",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "54ced7998925b36ccf4c9a27ca20043b",
     "url": "/davidshammas/static/media/david-shammas.54ced799.jpg"
+  },
+  {
+    "revision": "14e5d747528f07cca7c64779da36bc72",
+    "url": "/davidshammas/static/media/ds-about.14e5d747.jpg"
   },
   {
     "revision": "c9a85343472040c81cde38e1653d199b",
