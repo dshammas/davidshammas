@@ -522,4 +522,11 @@ export const projectData = [
       },
     ]
   },
+  {
+    aboutImage : [
+      {
+        aboutImage: require("../src/assets/ds-about.jpg"),
+      }
+    ]
+  },
 ];

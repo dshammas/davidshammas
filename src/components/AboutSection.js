@@ -3,7 +3,7 @@ import "./css/AboutSection.css";
 import { Row, Col, Image } from "react-bootstrap";
 
 
-export default function AboutSection() {
+export default function AboutSection({ image }) {
   return (
     <React.Fragment>
       <div className="aboutDiv">
@@ -19,7 +19,7 @@ export default function AboutSection() {
             <Image
               height="auto"
               width="300px"
-              src="img/ds-about.jpg"
+              src={image}
               alt="Profile Image"
               rounded
               className="mx-auto d-block about-image"
