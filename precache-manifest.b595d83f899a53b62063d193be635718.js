@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc83ffb221dd22e6cc0c0d60c55d995e",
+    "revision": "5d72b34a901bbbcb955ba7eda24e959a",
     "url": "/davidshammas/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/davidshammas/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "446498a5b611d6a6999b",
+    "revision": "a5ccda691977e78b505d",
     "url": "/davidshammas/static/css/main.121e32fa.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/davidshammas/static/js/2.fa6460d7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "446498a5b611d6a6999b",
-    "url": "/davidshammas/static/js/main.b23706f1.chunk.js"
+    "revision": "a5ccda691977e78b505d",
+    "url": "/davidshammas/static/js/main.01e55fa1.chunk.js"
   },
   {
     "revision": "8d3a240d0920ec7b1b0c",
