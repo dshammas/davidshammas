@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/davidshammas/static/css/main.121e32fa.chunk.css",
+    "main.js": "/davidshammas/static/js/main.aa9160c2.chunk.js",
+    "main.js.map": "/davidshammas/static/js/main.aa9160c2.chunk.js.map",
+    "runtime-main.js": "/davidshammas/static/js/runtime-main.59819905.js",
+    "runtime-main.js.map": "/davidshammas/static/js/runtime-main.59819905.js.map",
+    "static/css/2.4707e12a.chunk.css": "/davidshammas/static/css/2.4707e12a.chunk.css",
+    "static/js/2.149beaeb.chunk.js": "/davidshammas/static/js/2.149beaeb.chunk.js",
+    "static/js/2.149beaeb.chunk.js.map": "/davidshammas/static/js/2.149beaeb.chunk.js.map",
+    "index.html": "/davidshammas/index.html",
+    "precache-manifest.1e20b0ed784608bc2cf40e2045ba181e.js": "/davidshammas/precache-manifest.1e20b0ed784608bc2cf40e2045ba181e.js",
+    "service-worker.js": "/davidshammas/service-worker.js",
+    "static/css/2.4707e12a.chunk.css.map": "/davidshammas/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.121e32fa.chunk.css.map": "/davidshammas/static/css/main.121e32fa.chunk.css.map",
+    "static/js/2.149beaeb.chunk.js.LICENSE.txt": "/davidshammas/static/js/2.149beaeb.chunk.js.LICENSE.txt",
+    "static/media/Captureicecream.PNG": "/davidshammas/static/media/Captureicecream.2793ba24.PNG",
+    "static/media/bbk.PNG": "/davidshammas/static/media/bbk.f92eba88.PNG",
+    "static/media/bg.png": "/davidshammas/static/media/bg.c20aba2b.png",
+    "static/media/Blog.css": "/davidshammas/static/media/blog-img.12ac9d98.jpeg",
+    "static/media/booklist.png": "/davidshammas/static/media/booklist.b4b230a2.png",
+    "static/media/budgetbookkeeper.PNG": "/davidshammas/static/media/budgetbookkeeper.0f4596f4.PNG",
+    "static/media/Contact.css": "/davidshammas/static/media/contact.f1b8d025.jpg",
+    "static/media/Header.css": "/davidshammas/static/media/david-shammas.54ced799.jpg",
+    "static/media/exchange.png": "/davidshammas/static/media/exchange.c9a85343.png",
+    "static/media/fr.png": "/davidshammas/static/media/fr.f733ef84.png",
+    "static/media/md.png": "/davidshammas/static/media/md.b53b611f.png",
+    "static/media/portfolio.png": "/davidshammas/static/media/portfolio.22741710.png",
+    "static/media/rf.png": "/davidshammas/static/media/rf.d95ac601.png",
+    "static/media/shoppingList.png": "/davidshammas/static/media/shoppingList.80759892.png",
+    "static/media/Projects.css": "/davidshammas/static/media/skill-bg.9de49133.jpeg",
+    "static/media/todolist.png": "/davidshammas/static/media/todolist.88193643.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59819905.js",
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.149beaeb.chunk.js",
+    "static/css/main.121e32fa.chunk.css",
+    "static/js/main.aa9160c2.chunk.js"
+  ]
+}
