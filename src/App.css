@@ -12,13 +12,13 @@
 }
 
 p {
-  font-size: 20px;
-  line-height: 35px;
+  font-size: 22px;
+  line-height: 37px;
 }
 
 h1, h2, h3, h4 {
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   /* font-family: Poppins; */
 }
 

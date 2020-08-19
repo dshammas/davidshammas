@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import {  Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { projectData } from "../projectData";
 import "../components/css/Home.css";
 import Header from "./Header";
 import AboutSection from "./AboutSection";
-import FeaturedProjects from './FeaturedProjects';
-import CallToAction from './CallToAction';
+import FeaturedProjects from "./FeaturedProjects";
+import CallToAction from "./CallToAction";
 
 export default class Home extends Component {
   constructor() {
@@ -14,6 +14,11 @@ export default class Home extends Component {
       aboutImage: projectData[4].aboutImage[0].aboutImage,
     };
   }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <React.Fragment>

@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  HashRouter,
+  Switch,
+} from "react-router-dom";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -11,7 +16,6 @@ import Skills from "./components/Skills";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-
 class App extends Component {
   componentDidMount() {
     Aos.init({
@@ -21,9 +25,9 @@ class App extends Component {
 
   render() {
     return (
-      <Router basename={process.env.PUBLIC_URL}>
-        <div className="App">
-          <CustomNavbar />
+      <div className="App">
+        <CustomNavbar />
+        <HashRouter basename="/davidshammas">
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/projects" component={Projects} />
@@ -32,8 +36,8 @@ class App extends Component {
             <Route path="/blog" component={Blog} />
           </Switch>
           <Footer />
-        </div>
-      </Router>
+        </HashRouter>
+      </div>
     );
   }
 }

@@ -4,15 +4,19 @@ import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
 export default class Blog extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div className="blog-img">
-          <div className="blog-text">
-            <h1>Coming Soon</h1>
-              <Link to="/">
-                <Button className="ds-cust-btn primary-btn">Home</Button>
-              </Link>
-          </div>
+        <div className="blog-text">
+          <h1>Coming Soon</h1>
+          <Link to="/">
+            <Button className="ds-cust-btn primary-btn">Home</Button>
+          </Link>
+        </div>
       </div>
     );
   }

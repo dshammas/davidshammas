@@ -13,6 +13,10 @@ export default class Projects extends Component {
     };
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     return (
       <div>
@@ -21,7 +25,6 @@ export default class Projects extends Component {
             <ProjectList projects={this.state.projects} />
           </Col>
         </Row>
-      
       </div>
     );
   }

@@ -12,14 +12,14 @@ export default function CallToAction() {
             <div style={{ display: "inline-flex" }}>
               <Row>
                 <Col md={6} sm={12}>
-                  <Nav.Link to="/projects" href="/projects">
+                  <Nav.Link to="/projects" href="https://dshammas.github.io/davidshammas/#/projects">
                     <Button className="ds-cust-btn primary-btn" data-aos="zoom-in-right">
                       Projects
                     </Button>
                   </Nav.Link>
                 </Col>
                 <Col md={6} sm={12}>
-                  <Nav.Link to="/skills" href="/skills">
+                  <Nav.Link to="/skills" href="https://dshammas.github.io/davidshammas/#/skills">
                     <Button className="ds-cust-btn secondary-btn" data-aos="zoom-in-left">
                       Skills
                     </Button>

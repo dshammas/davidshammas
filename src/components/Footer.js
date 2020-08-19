@@ -24,19 +24,19 @@ export default function Footer() {
 
               <ul className="list-unstyled">
                 <li>
-                <Nav.Link className="ds-cust-btn p-0 m-auto" to="/" href="/" >Home</Nav.Link>
+                <Nav.Link className="ds-cust-btn p-0 m-auto" to="/" href="https://dshammas.github.io/davidshammas/#/" >Home</Nav.Link>
                   {/* <Link href="/" to="/">
                     <span className="ds-cust-btn ">Home</span>
                   </Link> */}
                 </li>
                 <li>
-                <Nav.Link className="ds-cust-btn p-0 m-auto" key={2} href="/projects">Projects</Nav.Link>
+                <Nav.Link className="ds-cust-btn p-0 m-auto" key={2} href="https://dshammas.github.io/davidshammas/#/projects">Projects</Nav.Link>
                   {/* <Link to="/projects">
                     <span className="ds-cust-btn ">Projects</span>
                   </Link> */}
                 </li>
                 <li>
-                <Nav.Link className="ds-cust-btn p-0 m-auto" key={4} href="/blog">Blog</Nav.Link>
+                <Nav.Link className="ds-cust-btn p-0 m-auto" key={4} href="https://dshammas.github.io/davidshammas/#/blog">Blog</Nav.Link>
                   {/* <Link to="/blog">
                     <span className="ds-cust-btn ">Blog</span>
                   </Link> */}

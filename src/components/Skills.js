@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { projectData } from "../projectData";
 import SkillList from "./SkillList";
 import SearchBox from "./SearchBox";
-import { Container, } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import CoursesList from "./CoursesList";
 
 export default class Skills extends Component {
@@ -13,6 +13,10 @@ export default class Skills extends Component {
       courses: projectData[3].courses,
       searchfield: "",
     };
+  }
+
+  componentDidMount() {
+    window.scrollTo(0, 0);
   }
 
   onSearchChange = (event) => {
