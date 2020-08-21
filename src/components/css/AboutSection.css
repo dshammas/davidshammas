@@ -22,6 +22,9 @@
 }
 
 @media screen and (max-width: 480px) {
+    .aboutDiv {
+      clip-path: none;
+    }
     .about-image {
         margin-bottom: 50px;;
     }

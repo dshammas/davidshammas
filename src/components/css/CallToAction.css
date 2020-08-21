@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 480px) {
     .CTADiv {
-        -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: none;
     }
 }

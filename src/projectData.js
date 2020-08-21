@@ -442,7 +442,7 @@ export const projectData = [
       },
       {
         id: 9,
-        title: "Operation Systems",
+        title: "Operation Systems (IP)",
         image: "",
       },
       {
@@ -517,8 +517,18 @@ export const projectData = [
       },
       {
         id: 24,
-        title: "Calculus I",
-        image: "Sophomore project",
+        title: "Web Development",
+        image: "",
+      },
+      {
+        id: 25,
+        title: "Theory of Computation (IP)",
+        image: "",
+      },
+      {
+        id: 26,
+        title: "Capstone Senior Project (IP)",
+        image: "",
       },
     ]
   },
